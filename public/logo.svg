@@ -1,0 +1,10 @@
+<!-- Save this as logo.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Example content based on the provided image -->
+  <g fill="none" stroke="gray" stroke-width="2">
+    <circle cx="60" cy="60" r="50" />
+    <path d="M45 60 L75 60 M60 45 L60 75" />
+  </g>
+  <text x="110" y="70" font-family="Arial" font-size="40" fill="gray">D</text>
+  <text x="50" y="130" font-family="Arial" font-size="20" fill="black">DARUBRAMHA</text>
+</svg>

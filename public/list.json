@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "name": "Drone Agriculture Basics",
+        "title": "Introduction to Drone Agriculture",
+        "description": "Learn the basics of using drones in agriculture, including drone operation and applications.",
+        "price": "100₹",
+        "category": "paid",
+        "duration": "2 hours",
+        "image": "drone.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Precision Farming",
+        "title": "Precision Farming with Drones",
+        "description": "Explore precision farming techniques using drones to improve crop yields and efficiency.",
+        "price": "0₹",
+        "category": "Free",
+        "duration": "3 hours",
+        "image": "drone.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Soil Analysis",
+        "title": "Drone-Based Soil Analysis",
+        "description": "Learn how to use drones for soil analysis and monitoring to optimize agricultural practices.",
+        "price": "120₹",
+        "category": "paid",
+        "duration": "2.5 hours",
+        "image": "drone.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Crop Monitoring",
+        "title": "Crop Monitoring with Drones",
+        "description": "Understand how to use drones for real-time crop monitoring and health assessment.",
+        "price": "1499₹",
+        "category": "Paid",
+        "duration": "4 hours",
+        "image": "drone.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Irrigation Management",
+        "title": "Drone-Assisted Irrigation Management",
+        "description": "Learn how drones can assist in efficient irrigation management and water usage.",
+        "price": "1299₹",
+        "category": "Paid",
+        "duration": "3.5 hours",
+        "image": "drone.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Plant Health",
+        "title": "Assessing Plant Health with Drones",
+        "description": "Discover techniques for using drones to assess and manage plant health in agriculture.",
+        "price": "0₹",
+        "category": "Free",
+        "duration": "2.5 hours",
+        "image": "drone.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Field Mapping",
+        "title": "Drone Field Mapping",
+        "description": "Learn how to create accurate field maps using drone technology for better farm management.",
+        "price": "0₹",
+        "category": "Free",
+        "duration": "3 hours",
+        "image": "drone.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Yield Prediction",
+        "title": "Drone-Based Yield Prediction",
+        "description": "Explore how drones can be used to predict crop yields and improve harvest planning.",
+        "price": "0₹",
+        "category": "Free",
+        "duration": "2.5 hours",
+        "image": "drone.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Pest Control",
+        "title": "Using Drones for Pest Control",
+        "description": "Learn how drones can be utilized for effective pest control and management in agriculture.",
+        "price": "0₹",
+        "category": "Free",
+        "duration": "3 hours",
+        "image": "drone.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Fertilization",
+        "title": "Drone-Assisted Fertilization",
+        "description": "Understand the use of drones in precision fertilization to enhance crop productivity.",
+        "price": "0₹",
+        "category": "Free",
+        "duration": "2 hours",
+        "image": "drone.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Drone Operation",
+        "title": "Operating Agricultural Drones",
+        "description": "Learn the fundamentals of operating drones specifically for agricultural applications.",
+        "price": "0₹",
+        "category": "Free",
+        "duration": "2.5 hours",
+        "image": "drone.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Data Analysis",
+        "title": "Agricultural Data Analysis with Drones",
+        "description": "Explore how to analyze agricultural data collected by drones for informed decision-making.",
+        "price": "0₹",
+        "category": "Free",
+        "duration": "3 hours",
+        "image": "drone.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Weather Monitoring",
+        "title": "Drone Weather Monitoring",
+        "description": "Learn how drones can be used for monitoring weather conditions to support farming activities.",
+        "price": "0₹",
+        "category": "Free",
+        "duration": "2.5 hours",
+        "image": "drone.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Sustainable Farming",
+        "title": "Sustainable Farming with Drones",
+        "description": "Understand how to implement sustainable farming practices using drone technology.",
+        "price": "0₹",
+        "category": "Free",
+        "duration": "3 hours",
+        "image": "drone.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Drone Legislation",
+        "title": "Drone Legislation in Agriculture",
+        "description": "Learn about the legal aspects and regulations related to the use of drones in agriculture.",
+        "price": "0₹",
+        "category": "Free",
+        "duration": "2 hours",
+        "image": "drone.jpg"
+    }
+    
+]
