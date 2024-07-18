@@ -1,8 +1,8 @@
 import AgroDroneReview from "../Componets/AgroDroneReview";
 import BookingVideo from "../Componets/BookingVideo";
 import DroneComponent from "../Componets/DroneComponent";
-import Fotter from "../Componets/Fotter";
-import HomeBanner from "../Componets/HomeBanner";
+import LandScape from "../Componets/LandScape/LandScape";
+import Marketdisplay from "../Componets/Market/Marketdisplay";
 import Navbar from "../Componets/Navbar";
 import ScientistAdvise from "../Componets/scientistAdvise";
 import Survillance from "../Componets/surviellance/survillance";
@@ -18,7 +18,8 @@ export default function Home(){
         <BookingVideo/>
         <ScientistAdvise/>
         <Survillance/>
-        
+        <Marketdisplay/>
+        <LandScape/>
         
         </>
     )
