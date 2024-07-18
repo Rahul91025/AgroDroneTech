@@ -4,6 +4,8 @@ import DroneComponent from "../Componets/DroneComponent";
 import Fotter from "../Componets/Fotter";
 import HomeBanner from "../Componets/HomeBanner";
 import Navbar from "../Componets/Navbar";
+import ScientistAdvise from "../Componets/scientistAdvise";
+import Survillance from "../Componets/surviellance/survillance";
 import VideoBackground from "../Componets/VideoBackgroud";
 
 export default function Home(){
@@ -14,6 +16,8 @@ export default function Home(){
         <DroneComponent/>
         <AgroDroneReview/>
         <BookingVideo/>
+        <ScientistAdvise/>
+        <Survillance/>
         
         
         </>
