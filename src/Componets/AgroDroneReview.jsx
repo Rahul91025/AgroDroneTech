@@ -1,4 +1,5 @@
 import React from 'react';
+import svdBackground from '../../public/bg1.jpg';
 
 const drones = [
   {
@@ -34,17 +35,7 @@ const drones = [
       { reviewer: 'Neha Gupta', review: 'Great training program for beginners.' }
     ]
   },
-  {
-    name: 'Women Flying',
-    video: 'https://www.youtube.com/embed/zUwYQ7BU1vw',
-    specs: ['Capacity: 16L', 'Range: 2km', 'Battery Life: 1hr'],
-    price: '$2200',
-    description: 'Empowering women in the field of drone technology.',
-    reviews: [
-      { reviewer: 'Ritika Verma', review: 'A fantastic initiative to promote women in tech.' },
-      { reviewer: 'Sunita Reddy', review: 'Inspiring and powerful.' }
-    ]
-  },
+  
   {
     name: '16L Drone',
     video: 'https://www.youtube.com/embed/zUwYQ7BU1vw',
@@ -82,9 +73,9 @@ const drones = [
 
 const AgroDroneReview = () => {
   return (
-    <div className="container mx-auto px-4 py-8 mt-16 bg-gradient-to-r from-sky-200 via-gray-400 to-sky-300">
-      <h2 className="text-4xl font-bold mb-12 text-center text-blue-600">AgroDrone Reviews & Specifications</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+    <div className="container mx-auto px-4 py-8 mt-16 ">
+      <h2 className="text-4xl font-bold mb-12 text-center text-green-600">AgroDrone Reviews & Specifications</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
         {drones.map((drone, index) => (
           <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">
             <div className="p-4">

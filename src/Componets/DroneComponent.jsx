@@ -15,11 +15,7 @@ const DroneComponent = () => {
       imageSrc: banner,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales."
     },
-    { 
-      title: "Drone Training", 
-      imageSrc: banner,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales."
-    },
+    
     { 
       title: "Women Flying Drone", 
       imageSrc:banner,
@@ -44,7 +40,7 @@ const DroneComponent = () => {
 
   return (
     <div className="mt-8 px-4 sm:px-6 lg:px-8">
-      <h2 className="text-2xl font-bold mb-8 text-center">Explore Our Drones</h2>
+      <h2 className="text-2xl font-bold mb-8 text-center text-green-500">Explore Our Drones</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8">
         {drones.map((drone, index) => (
           <div 
@@ -58,7 +54,7 @@ const DroneComponent = () => {
               className="w-full h-40 sm:h-48 object-cover object-center rounded-t-lg transition duration-300 ease-in-out transform hover:scale-105"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold mb-2">{drone.title}</h3>
+              <h3 className="text-lg font-semibold mb-2 text-black">{drone.title}</h3>
               <p className="text-gray-600">{drone.description}</p>
             </div>
           </div>

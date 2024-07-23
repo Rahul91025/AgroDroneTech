@@ -22,7 +22,7 @@ const VideoBackground = () => {
           <p className="text-lg mb-6">Revolutionizing agriculture with cutting-edge drone technology.</p>
         </div>
         {/* Learn More Link */}
-        <a href="#" className="bg-white text-gray-800 px-6 py-2 rounded-full hover:bg-blue-300">Learn More</a>
+        <a href="#" className="bg-white text-gray-800 px-6 py-2 rounded-full hover:bg-gray-300">Learn More</a>
       </div>
     </div>
   );
