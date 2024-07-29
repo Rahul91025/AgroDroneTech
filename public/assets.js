@@ -52,16 +52,20 @@ export const drone_list = [
 { img: img8,
     name:"Flower Garden In Dhenkanal"
 
-  },  { img: img9,
+  },  
+  { img: img9,
     name:"Water million Field  In Gujrat"
 
-  },  { img: img10,
+  }, 
+   { img: img10,
     name:"Sunflower Field In Andra Pradesh"
 
-  },  { img: img11,
+  },  
+  { img: img11,
     name:"Mango Tree In Madhya Pradesh"
 
-  },  { img: img12,
+  }, 
+   { img: img12,
     name:"Tea Estate In West Bengal"
 
   },

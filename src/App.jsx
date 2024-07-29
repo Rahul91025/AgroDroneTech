@@ -14,7 +14,7 @@ import Carrers1 from "./Carrers/Carrers1.jsx";
 function App() {
   return (
     <>
-      {/* <Home  /> */}
+      {/* <Home  /> */} 
       {/* <Training/> */}
       {/* <Product1/> */}
       {/* <About1/> */}
