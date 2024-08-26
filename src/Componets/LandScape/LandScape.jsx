@@ -3,16 +3,16 @@ import { landScape } from "../../../public/assets";
 import "./LandScape.css";
 const LandScape = () => {
   return (
-    <div className="container">
+    <div className="containers-land">
   <h1>AGRICULTURE LANDSCAPE & SERVICE PACKAGE</h1>
-    <div className="box">
+    <div className="box-land">
     
       <div className="images">
         <h2>Service Package</h2>
         <img src={landScape.landscape1} alt="" />
       </div>
       <div class="vertical-line"></div>
-      <div className="images">
+      <div className="images-land">
         <p>
           Our primary customer segments are medium-to-large sized farmers and
           co-operative organization. We plan to partner with known brands and

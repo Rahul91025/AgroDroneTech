@@ -7,9 +7,9 @@ import './Marketdisplay.css'
 const Marketdisplay = () => {
   return (
     <div>
-    <div className="food-display" id="food-display">
+    <div className="drone-display" id="drone-display">
       <h2>CURRENT MARKET REACH IN DIFFERENT STATES OF INDIA</h2>
-      <div className="food-display-list">
+      <div className="drone-display-list">
           {
               drone_list.map((item)=>{
 
@@ -20,6 +20,7 @@ const Marketdisplay = () => {
 
       </div>
     </div>
+    <hr />
   </div>
   )
 }

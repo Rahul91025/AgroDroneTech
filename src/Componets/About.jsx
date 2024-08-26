@@ -1,18 +1,17 @@
 import React from 'react';
-import banner from '../../public/khet.jpg';
+import banner from '../../public/raji.jpg';
 import { FaLeaf, FaTractor, FaSeedling, FaGlobe, FaUser, FaCog } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <div className="relative overflow-hidden mt-9 z-0">
+    <>
+    <div className="overflow-hidden mt-9 z-0">
       <div
         className="absolute inset-0 bg-fixed bg-cover bg-center"
-        style={{ backgroundImage: `url(${banner})`, zIndex: '-3', marginTop: '120px', height: '520px' }}
+        style={{ backgroundImage: `url(${banner})`, zIndex: '-3',position:'absolute',top:'0', height: '620px',opacity:'0.9' }}
       ></div>
-      <div className="bg-white bg-opacity-0 p-6 shadow-sm mt-10 max-w-6xl mx-auto relative z-10">
-        <h1 className="text-4xl font-bold text-green-500 mb-8 transition-transform transform hover:scale-105 text-center">
-          About AgroDrone
-        </h1>
+      <div className="bg-white bg-opacity-0 p-6 shadow-sm mt-10 max-w-6xl mx-auto relative ">
+       
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
           <div className="flex flex-col items-center transition-transform transform hover:scale-105">
@@ -60,7 +59,11 @@ const About = () => {
         </div>
 
         {/* YouTube Video Section */}
+
         <div className="my-12 text-center">
+           <h1 className="text-4xl font-bold text-black mb-8 transition-transform transform hover:scale-105 text-center">
+          About Us
+        </h1>
           <iframe
             width="560"
             height="315"
@@ -81,6 +84,7 @@ const About = () => {
         </p>
       </div>
     </div>
+    </>
   );
 };
 

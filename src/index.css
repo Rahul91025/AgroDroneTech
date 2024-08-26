@@ -3,10 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Poppins' ,sans-serif;
-<<<<<<< HEAD
+
     background:rgb(255, 254, 254);
     /* background:white; */
     color: white
@@ -18,9 +22,6 @@ body {
     
 
 }
-=======
-    background:rgb(255, 255, 255);
-    /* background:white; */
-    color: rgb(0, 0, 0);
-}
->>>>>>> 7b45b80c81db46ad10449e0ae8ac39c561b75ded
+
+  
+

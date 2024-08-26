@@ -16,7 +16,7 @@ const Training = () => {
   
   return (
     <>
-      <Navbar />
+      <Navbar bgColor="#4B5563"/>
       <Banner/>
       <YouTube1/>
       <Courses/>

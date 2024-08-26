@@ -74,7 +74,7 @@ const drones = [
 const AgroDroneReview = () => {
   return (
     <div className="container mx-auto px-4 py-8 mt-16 ">
-      <h2 className="text-4xl font-bold mb-12 text-center text-green-600">AgroDrone Reviews & Specifications</h2>
+      <h2 className="text-4xl font-bold mb-12 text-center text-black">AgroDrone Reviews & Specifications</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
         {drones.map((drone, index) => (
           <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">

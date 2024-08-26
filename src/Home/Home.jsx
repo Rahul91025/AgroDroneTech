@@ -1,17 +1,16 @@
 import AgroDroneReview from "../Componets/AgroDroneReview";
-import Banner from "../Componets/Banner";
 import BookingVideo from "../Componets/BookingVideo";
 import DroneComponent from "../Componets/DroneComponent";
 import LandScape from "../Componets/LandScape/LandScape";
 import Marketdisplay from "../Componets/Market/Marketdisplay";
 import Navbar from "../Componets/Navbar";
-<<<<<<< HEAD
-import TrainingCenter from "../Componets/TrainingCenter";
-=======
-import ScientistAdvise from "../Componets/scientistAdvise";
 import Survillance from "../Componets/surviellance/survillance";
->>>>>>> 7b45b80c81db46ad10449e0ae8ac39c561b75ded
+import Thermo from "../Componets/surviellance/Thermo";
+import Footer from "../Componets/Fotter"
+
 import VideoBackground from "../Componets/VideoBackgroud";
+import Medical_drone from "../Componets/surviellance/Medical_drone";
+import Testimonials from "../Testimonials/Testimonials";
 
 export default function Home(){
     return(
@@ -21,17 +20,18 @@ export default function Home(){
         <DroneComponent/>
         <AgroDroneReview/>
         <BookingVideo/>
-<<<<<<< HEAD
         
        
-    </>
-=======
-        <ScientistAdvise/>
+
+        {/* <ScientistAdvise/> */}
         <Survillance/>
+        <Medical_drone/>
+        <Thermo/>
         <Marketdisplay/>
         <LandScape/>
+        <Testimonials/>
+        <Footer/>
         
         </>
->>>>>>> 7b45b80c81db46ad10449e0ae8ac39c561b75ded
     )
 }

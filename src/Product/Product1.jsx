@@ -6,7 +6,7 @@ import Footer from '../Componets/Fotter'
 const Product1 = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar bgColor="#4B5563"/>
       <Product/>
       <Footer/>
     </div>

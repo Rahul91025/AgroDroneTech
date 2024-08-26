@@ -39,8 +39,8 @@ const DroneComponent = () => {
   ];
 
   return (
-    <div className="mt-8 px-4 sm:px-6 lg:px-8">
-      <h2 className="text-2xl font-bold mb-8 text-center text-green-500">Explore Our Drones</h2>
+    <div className="mt-12 px-4 sm:px-6 lg:px-8">
+      <h2 className="text-4xl font-bold mb-10 text-center text-black">Explore Our Drones</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8">
         {drones.map((drone, index) => (
           <div 
@@ -54,8 +54,8 @@ const DroneComponent = () => {
               className="w-full h-40 sm:h-48 object-cover object-center rounded-t-lg transition duration-300 ease-in-out transform hover:scale-105"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold mb-2 text-black">{drone.title}</h3>
-              <p className="text-gray-600">{drone.description}</p>
+              <h3 className="text-lg font-semibold mb-2 text-black text-center">{drone.title}</h3>
+              <p className="text-gray-600 text-center">{drone.description}</p>
             </div>
           </div>
         ))}

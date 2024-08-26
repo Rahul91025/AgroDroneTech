@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { FaStar, FaStarHalfAlt, FaShoppingCart, FaFacebookF, FaTwitter, FaInstagram, FaWhatsapp, FaPinterest } from 'react-icons/fa';
 
+import Proddisplay from './ProductAnish/Proddisplay';
+
 const Product = () => {
   const [imgId, setImgId] = useState(1);
   const [selectedOption, setSelectedOption] = useState(null);
@@ -113,6 +115,9 @@ const Product = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="prod-sugg">
+        <Proddisplay/>
       </div>
     </div>
   );

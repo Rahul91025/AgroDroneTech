@@ -1,0 +1,12 @@
+.prod-display-list {
+    grid-template-columns:1fr 1fr 1fr ;
+  display: grid;
+    // gap: 50px;
+    // flex-direction: row;
+    // flex-wrap: wrap; 
+    flex-wrap: wrap;/* Ensure that items wrap to the next line if there are more than 3 */
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the total width */
+    width: 100%;
+    // border: 3px solid red;
+}

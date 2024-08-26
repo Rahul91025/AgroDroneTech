@@ -1,8 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import { MenuIcon } from '@heroicons/react/outline';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const Navbar = ({ bgColor }) => {
-  const menuItems = ['Home', 'About', 'Booking', 'Services', 'Product', 'Accessories', 'Training', 'Careers', 'Contact'];
+  const menuItems = [
+    { name: 'Home', path: '/' },
+    { name: 'About', path: '/about' },
+    { name: 'Booking', path: '/booking' }, // Add paths as needed
+    { name: 'Services', path: '/services' },
+    { name: 'Product', path: '/product1' },
+    { name: 'Accessories', path: '/accessories' },
+    { name: 'Training', path: '/training' },
+    { name: 'Careers', path: '/carrers1' },
+    { name: 'Contact', path: '/contact' },
+  ];
+
   const [activeMenuItem, setActiveMenuItem] = useState(null);
   const [isNavbarScrolled, setIsNavbarScrolled] = useState(false);
 
@@ -50,20 +61,20 @@ const Navbar = ({ bgColor }) => {
             <line x1="28" y1="12" x2="28" y2="22" className="stroke-current text-gray-200"></line>
           </svg>
 
-          <a href="#" className="text-gray-200 text-2xl font-bold font-orbitron">DARHUB</a>
+          <Link to="/" className="text-gray-200 text-2xl font-bold font-orbitron">DARHUB</Link>
         </div>
         <ul className="flex space-x-4">
           {menuItems.map((item) => (
-            <li key={item} className="group relative">
-              <a
-                href="#"
-                className={`text-white hover:text-black hover:bg-gray-700 hover:bg-opacity-25 px-3 py-2 rounded-md text-sm font-medium ${activeMenuItem === item ? 'text-black' : ''}`}
-                onClick={() => handleClick(item)}
+            <li key={item.name} className="group relative">
+              <Link
+                to={item.path}
+                className={`text-white hover:text-black hover:bg-gray-700 hover:bg-opacity-25 px-3 py-2 rounded-md text-sm font-medium ${activeMenuItem === item.name ? 'text-black' : ''}`}
+                onClick={() => handleClick(item.name)}
                 style={{ textDecoration: 'none' }}
               >
-                {item}
-              </a>
-              {activeMenuItem === item && (
+                {item.name}
+              </Link>
+              {activeMenuItem === item.name && (
                 <span className="absolute left-0 bottom-0 w-full h-0.5 bg-blue-100 transition-all duration-300 group-hover:w-full"></span>
               )}
             </li>
