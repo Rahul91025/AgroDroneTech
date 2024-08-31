@@ -8,17 +8,28 @@ const LandScape = () => {
     <div className="box-land">
     
       <div className="images">
-        <h2>Service Package</h2>
-        <img src={landScape.landscape1} alt="" />
+      
+    
       </div>
       <div class="vertical-line"></div>
       <div className="images-land">
-        <p>
+        <img className="img2" src={landScape.landscape2} alt=""  />
+        <p style={{
+    // boxShadow: '0px 0px 10px #00000015',
+    borderRadius:'10px',
+    padding:'50px',
+    fontSize:'20px',
+    // height:'400px',
+    width:'50%'
+  
+    
+
+
+        }}>
           Our primary customer segments are medium-to-large sized farmers and
           co-operative organization. We plan to partner with known brands and
           providers in the agricultural industry.
         </p>
-        <img className="img2" src={landScape.landscape2} alt="" />
       </div>
     </div>
     </div>

@@ -20,7 +20,9 @@ const BookingVideo = () => {
       >
         <div className="absolute inset-0 p-8"
         >
-          <h2 className="text-4xl font-bold text-center text-black">Client Booking Experience</h2>
+          <h2 className="text-4xl font-bold text-center mb-5 text-black" style={{
+            marginBottom:'30px',
+          }}>How to book your Drone</h2>
           <div className="relative overflow-hidden mt-3" style={{ paddingTop: '40.25%',
              boxShadow:` 0 4px 15px rgba(0, 0, 0, 0.2)`,
              borderRadius:'15px',
@@ -38,7 +40,8 @@ const BookingVideo = () => {
                 borderRadius:'10px',
                
                 width:'100%',
-                height:'100%'
+                height:'100%',
+                marginTop:'30px',
               }
             }></iframe>
           </div>

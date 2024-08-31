@@ -28,10 +28,10 @@ const ImageCarousel = () => {
   }, []);
 
   return (
-    <div className="relative w-full mx-auto overflow-hidden mt-10 max-w-full bg-slate-500">
+    <div className="relative w-full mx-auto overflow-hidden mt-10 max-w-full bg-white">
       <div className="text-center mt-10">
         <h1 className="text-4xl font-bold text-green-500 mb-4">Awards And Recognitions</h1>
-        <p className="text-lg text-gray-300">Owned by Rajendra Das</p>
+        <p className="text-lg text-black">Owned by Rajendra Das</p>
       </div>
 
       <div className="flex flex-row items-center justify-center mb-11">

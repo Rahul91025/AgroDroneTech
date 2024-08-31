@@ -17,7 +17,7 @@ const DroneComponent = () => {
     },
     
     { 
-      title: "Women Flying Drone", 
+      title: "VTOL airplane", 
       imageSrc:banner,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales."
     },

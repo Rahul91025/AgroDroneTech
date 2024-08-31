@@ -21,11 +21,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 10px #00000015;
+    border-radius: 10px;
 }
 .img2{
     width:50%;
     height: 100%;
+    transition: transform 0.9s ease-out;
+    
 }
+.img2:hover {
+    transform: perspective(1000px) rotateY(15deg) scale(1.1);
+    transition: transform 0.9s;
+}
+
+
 .images p {
 width: 100%;
 padding-bottom: 20px;
@@ -61,4 +71,9 @@ padding-bottom: 20px;
 }
 .images-land p {
     font-size: 25px;
+
+}
+.img2:hover .images-land p{
+    display: block;
+    
 }

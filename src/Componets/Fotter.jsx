@@ -1,76 +1,109 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
-import GooglePlayBadge from '../../public/play_store.png'; // Update with the correct path
-import AppStoreBadge from '../../public/app_store.png'; // Update with the correct path
+import { motion } from 'framer-motion';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white">
-      {/* Download App Section */}
-      <div className="bg-white text-black py-12 text-center">
-        <h2 className="text-2xl font-bold mb-4">
-          For Better Experience Download
-          <br />
-          DARHUB App
-        </h2>
-        <div className="flex justify-center items-center space-x-4">
-          <a href="https://play.google.com/store/apps/details?id=com.example.tomato" target="_blank" rel="noopener noreferrer">
-            <img src={GooglePlayBadge} alt="Google Play Store" className="h-12" />
-          </a>
-          <a href="https://apps.apple.com/app/id123456789" target="_blank" rel="noopener noreferrer">
-            <img src={AppStoreBadge} alt="Apple App Store" className="h-12" />
-          </a>
-        </div>
+    <motion.footer
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      className="bg-gray-900 text-gray-300 py-1 px-6"
+    >
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 "style={{
+        padding:'20px',marginTop:'100px',
+      }}>
+        <motion.div
+          initial={{ y: -20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
+          <motion.img
+            src="../../public/logo.jpg"
+            alt="IG Drones Logo"
+            className="mb-2 w-32"
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: 'spring', stiffness: 300 }}
+          />
+          <p className="text-sm">
+            DARHUB Drones provide specialist drone services at height and difficult to access areas across India. Technical end-to-end solution to help you ease your operation. Capture the smallest of details with ease. Raise your operational standards & Imagine more with us. Imagine Inspire Innovate.
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ y: -20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+        >
+          <h3 className="font-bold text-lg text-white mb-4">Quick Links</h3>
+          <ul className="space-y-2 text-sm">
+            {['Home', 'About Us', 'Services', 'Blog', 'Partner With Us As Institution', 'Partner With Us As Company/Pilot', 'Careers', 'Contact Us', 'Privacy Policy'].map((link) => (
+              <motion.li
+                key={link}
+                whileHover={{ x: 10, color: '#ffffff' }}
+                transition={{ type: 'spring', stiffness: 300 }}
+              >
+                <a href="#" className="hover:underline flex items-center">
+                  <i className="fas fa-chevron-right mr-2"></i>{link}
+                </a>
+              </motion.li>
+            ))}
+          </ul>
+        </motion.div>
+
+        <motion.div
+          initial={{ y: -20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.6 }}
+        >
+          <h3 className="font-bold text-lg text-white mb-4">Head Office</h3>
+          <p className="text-sm mb-2">Unit No. 408, Tower B-4, Spaze I-Tech Park, Sohna Road, Sector 49, Gurugram-122018, Haryana</p>
+          <p className="text-sm mb-2"><i className="fas fa-phone-alt mr-2"></i>+91 98532 48979</p>
+          <p className="text-sm mb-4"><i className="fas fa-envelope mr-2"></i>rajendra.rpd.das@gmail.com</p>
+          <div className="flex space-x-4 text-xl">
+            {['linkedin-in', 'facebook-f', 'twitter', 'youtube'].map((icon) => (
+              <motion.a
+                key={icon}
+                href="#"
+                className="hover:text-white transition"
+                whileHover={{ scale: 1.2 }}
+                transition={{ type: 'spring', stiffness: 300 }}
+              >
+                <i className={`fab fa-${icon}`}></i>
+              </motion.a>
+            ))}
+          </div>
+        </motion.div>
       </div>
 
-      {/* Main Footer Content */}
-      <div className="container mx-auto px-6 md:px-12 py-10">
-        <div className="flex flex-wrap justify-between">
-          <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold text-green-600">DARHUB.</h2>
-            <p className="mt-4 text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nihil accusamus suscipit veniam dolor perspiciatis deleniti consectetur laudantium necessitatibus sed reprehenderit omnis magnam, odio, minima perferendis assumenda nesciunt itaque placeat.
-            </p>
-            <div className="flex mt-4 space-x-4">
-              <a href="#" className="text-green-400 hover:text-gray-100">
-                <div className="bg-gray-700 p-3 rounded-full">
-                  <FaFacebookF />
-                </div>
-              </a>
-              <a href="#" className="text-green-400 hover:text-gray-100">
-                <div className="bg-gray-700 p-3 rounded-full">
-                  <FaTwitter />
-                </div>
-              </a>
-              <a href="#" className="text-green-400 hover:text-gray-100">
-                <div className="bg-gray-700 p-3 rounded-full">
-                  <FaLinkedinIn />
-                </div>
-              </a>
-            </div>
-          </div>
-          <div className="w-full md:w-1/6 mb-6 md:mb-0">
-            <h3 className="text-xl font-semibold text-white">Company</h3>
-            <ul className="mt-4 space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-gray-100">Home</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-gray-100">About</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-gray-100">Delivery</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-gray-100">Privacy policy</a></li>
-            </ul>
-          </div>
-          <div className="w-full md:w-1/3">
-            <h3 className="text-xl font-semibold text-white">Get In Touch</h3>
-            <ul className="mt-4 space-y-2">
-              <li className="text-gray-400">+1-234-567-890</li>
-              <li className="text-gray-400">contact@darhub.com</li>
-            </ul>
-          </div>
+      <motion.div
+        className="container mx-auto mt-10 grid grid-cols-1 md:grid-cols-3 gap-10"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.8 }}
+      >
+        <div className="md:col-span-2">
+          <h3 className="font-bold text-lg text-white mb-4">Branch Offices</h3>
+          <ul className="space-y-2 text-sm">
+            <li><strong>Ahmedabad:</strong> Hub Gujarat, KCG Campus, Opp PRL, Navrangpura, Ahmedabad, Gujarat 380015</li>
+            <li><strong>Mumbai:</strong> NASSCOM 10000 Startup Warehouse, 304, Building No. 2, Millenium Business Park, Sector 1, Mahape, Navi Mumbai, Maharashtra 400710</li>
+            <li><strong>Kolkata:</strong> Sarada Bhavan, 2/2B, 2nd floor, Kalimuddin Sarkar Ln, Kulia, Beleghata, Kolkata, West Bengal 700010</li>
+            <li><strong>Bhubaneswar:</strong> 517, Lane 7, Neeladri Vihar, Utkal Hospital Road, Bhubaneswar, Odisha 751021</li>
+            <li><strong>Patna:</strong> Gola Rd, Ramjaipal Nagar, Danapur Nizamat, Danapur, Bihar 801503</li>
+            <li><strong>Guwahati:</strong> 302, Juri Complex, Sweet Lane, House No 1, P.O. Panjabari Rd, Guwahati, Assam 781037</li>
+          </ul>
         </div>
-        <div className="border-t border-gray-700 mt-8 pt-6 text-center">
-          <p className="text-gray-400">Copyright 2024 © Darhub.com - All Right Reserved</p>
-        </div>
-      </div>
-    </footer>
+      </motion.div>
+
+      <motion.div
+        className="text-center mt-10 border-t border-gray-700 pt-4"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 1 }}
+      >
+        <p className="text-sm">Copyright © 2024. All Rights Reserved By DARHUB Drones</p>
+      </motion.div>
+    </motion.footer>
   );
 };
 

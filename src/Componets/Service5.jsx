@@ -1,6 +1,6 @@
 import React from 'react';
 import pic1 from '../../public/Ippo-Drone.jpeg';
-import pic3 from '../../public/hexa-blue-copy.jpg';
+import pic3 from '../../public/hexa.jpg';
 import Navbar from './Navbar';
 
 const Service5 = () => {
@@ -20,8 +20,8 @@ const Service5 = () => {
 
         {/* Content Section */}
         <div className='flex-1 relative z-[5] mt-[4rem] flex flex-col justify-center ml-[10rem] mb-[7rem]'>
-          <h2 className="text-4xl font-semibold text-white mb-7">Delivery / Load Carrying</h2>
-          <p className="text-white leading-relaxed mb-6 ">
+          <h2 className="text-4xl font-semibold text-black mb-7">Delivery / Load Carrying</h2>
+          <p className="text-black leading-relaxed mb-6 ">
           Load-carrying UAVs can be deployed as emergency supply <br/> drones in calamitous situations. In instances where disaster <br/>strikes and disrupts infrastructure supply lines, these drones <br/>serve as critical components of disaster relief logistics.<br/> By utilizing drone delivery services, rescue personnel can <br/>efficiently transport supplies, bolster infrastructure support,<br/> and establish communication networks, ultimately mitigating <br/>suffering and preventing further damage. The advantages <br/>include minimized transportation times, reduced traffic<br/> congestion, enhanced safety due to decreased vehicle miles<br/> traveled and fewer at-grade rail crossings, lower greenhouse<br/> gas emissions, and increased route flexibility.
           </p>
           <div className='flex justify-start ml-[9rem]'>

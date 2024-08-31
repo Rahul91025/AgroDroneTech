@@ -9,6 +9,9 @@ import Footer from '../Componets/Fotter'
 import Service6 from '../Componets/Service6'
 import Service7 from '../Componets/Service7'
 import Service8 from '../Componets/Service8'
+import Servillance from '../Componets/surviellance/survillance'
+import Medical from '../Componets/surviellance/Medical_drone'
+import Thermo from '../Componets/surviellance/Thermo'
 
 
 const Service = () => {
@@ -16,6 +19,9 @@ const Service = () => {
     <div>
        <Navbar/> 
       <ServicesPage/>
+      <Servillance/>
+      <Medical/>
+      <Thermo/>
       <Service2/>
       <Service3/>
       <Service4/>

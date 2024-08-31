@@ -1,6 +1,7 @@
 import React from 'react';
 import banner from '../../public/raji.jpg';
 import { FaLeaf, FaTractor, FaSeedling, FaGlobe, FaUser, FaCog } from 'react-icons/fa';
+import OurTeamList from './OurTeam/OurTeam';
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
     <div className="overflow-hidden mt-9 z-0">
       <div
         className="absolute inset-0 bg-fixed bg-cover bg-center"
-        style={{ backgroundImage: `url(${banner})`, zIndex: '-3',position:'absolute',top:'0', height: '620px',opacity:'0.9' }}
+        style={{ backgroundImage: `url(${banner})`, zIndex: '-3',top:'0', height: '620px',opacity:'0.9' }}
       ></div>
       <div className="bg-white bg-opacity-0 p-6 shadow-sm mt-10 max-w-6xl mx-auto relative ">
        
@@ -61,29 +62,32 @@ const About = () => {
         {/* YouTube Video Section */}
 
         <div className="my-12 text-center">
-           <h1 className="text-4xl font-bold text-black mb-8 transition-transform transform hover:scale-105 text-center">
-          About Us
-        </h1>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/NKW-O09j-7E"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            className="shadow-lg rounded-lg ml-[290px]"
-          ></iframe>
-          <p className="text-lg text-gray-500 mt-4">
-            Watch our video to learn more about AgroDrone and our innovative solutions.
-          </p>
-        </div>
+  <h1 className="text-4xl font-bold text-black mb-8 transition-transform transform hover:scale-105 text-center">
+    About Us
+  </h1>
+  <div className="flex justify-center">
+    <iframe
+      width="800"  // Adjusted width
+      height="450"  // Adjusted height
+      src="https://www.youtube.com/embed/NKW-O09j-7E"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      className="shadow-lg rounded-lg"
+    ></iframe>
+  </div>
+  <p className="text-lg text-gray-500 mt-4">
+    Watch our video to learn more about AgroDrone and our innovative solutions.
+  </p>
+</div>
 
         <p className="text-lg text-gray-600 mt-8 text-center">
           Join us on our journey to transform agriculture with cutting-edge drone technology. Together, we can build a more sustainable and efficient future for farming.
         </p>
       </div>
     </div>
+    <OurTeamList/>
     </>
   );
 };

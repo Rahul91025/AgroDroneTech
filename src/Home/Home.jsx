@@ -11,6 +11,11 @@ import Footer from "../Componets/Fotter"
 import VideoBackground from "../Componets/VideoBackgroud";
 import Medical_drone from "../Componets/surviellance/Medical_drone";
 import Testimonials from "../Testimonials/Testimonials";
+import ServicePackageDisplay from "../Componets/LandScape/servicepackagedisplay";
+import EnterPrice from "../Componets/EnterPrice/EnterPrice";
+import ArticleCard from "../Componets/Blogs/ArticleCard";
+import ArticleCardDisplay from "../Componets/Blogs/ArticleCard";
+import FAQSection from "../Componets/FAQs/FAQSection";
 
 export default function Home(){
     return(
@@ -25,11 +30,15 @@ export default function Home(){
 
         {/* <ScientistAdvise/> */}
         <Survillance/>
-        <Medical_drone/>
-        <Thermo/>
+        {/* <Medical_drone/>
+        <Thermo/> */}
         <Marketdisplay/>
         <LandScape/>
+        <ServicePackageDisplay/>
+        <EnterPrice/>
+        <ArticleCardDisplay/>
         <Testimonials/>
+        <FAQSection/>
         <Footer/>
         
         </>

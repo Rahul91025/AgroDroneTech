@@ -1,5 +1,5 @@
 import React from 'react';
-import pic3 from '../../public/hexa-blue-copy.jpg'; // Path to your background image
+import pic3 from '../../public/hexa.jpg'; // Path to your background image
 import droneImage from '../../public/Fire-Fighting-Drone.jpeg'; // Path to your drone image
 
 const Service3 = () => {

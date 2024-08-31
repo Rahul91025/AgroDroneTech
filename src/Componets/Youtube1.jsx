@@ -6,7 +6,7 @@ const Youtube1 = () => {
     <>
       <div className="max-w-screen-2xl container mx-auto md:px-20 py-4 z-50">
         <div className="mt-28 items-center justify-center text-center">
-          <h1 className="text-2xl md:text-4xl">
+          <h1 className="text-2xl md:text-4xl text-black">
             We're delighted to have you{" "}
             <span className="text-green-600">Here! :)</span>
           </h1>

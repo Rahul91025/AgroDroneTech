@@ -1,0 +1,26 @@
+.drone-display{
+    margin: 30px;
+    margin-top: 100px;
+}
+.drone-display h2{
+    font-size: max(1.5vw,30px);
+    font-weight: 600;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: black;
+    /* background-color: rgb(77, 255, 77); */
+    padding:8px;
+}
+.drone-display-list1{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr  ;
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+    column-gap: 50px;
+    padding: 30px;
+    
+
+
+}

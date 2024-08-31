@@ -27,7 +27,7 @@ const drones = [
   {
     name: 'Drone Training',
     video: 'https://www.youtube.com/embed/zUwYQ7BU1vw',
-    specs: ['Duration: 3 days', 'Skill Level: Beginner'],
+    specs: ['Duration: 3 days', 'Skill Level: Beginner',"Best Seller"],
     price: '$300',
     description: 'Comprehensive training program for drone operation.',
     reviews: [

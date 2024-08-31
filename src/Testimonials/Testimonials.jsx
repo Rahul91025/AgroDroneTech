@@ -44,10 +44,19 @@ const Testimonials = () => {
       <h1 style={{
         color:'black',
         textAlign:'center',
-        fontSize:'30px',
+        fontSize:'45px',
         margin:'20px',
         fontWeight:'bold',
-      }}>Our Customers</h1>
+      }}>Testimonials</h1>
+      <p style={{
+        color:'black',
+        textAlign:'center',
+        fontSize:'17px',
+        margin:'auto',
+        width:'55%',
+        marginBottom:'30px',
+      
+      }}><b style={{color:'blue'}}>Garuda Drones</b>  is dedicated to excellence, as proven by our clients' success. Hear from those who've benefited from our precise, efficient, and safe mapping and surveying solutions</p>
   
     <Swiper
       slidesPerView={3}

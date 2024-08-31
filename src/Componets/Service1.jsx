@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaRobot, FaThermometerHalf, FaWarehouse } from 'react-icons/fa';
 import { MdOutlineInventory } from 'react-icons/md';
-import img from '../../public/young.jpg';
+import img from '../../public/young1.jpg';
 import svdBackground from '../../public/triangle.jpg';
 
 const ServicesPage = () => {
@@ -25,8 +25,10 @@ const ServicesPage = () => {
         </div>
 
         <div className="bg-white rounded-lg shadow-lg text-black w-full" 
-          style={{ backgroundImage: `url(${svdBackground})`, height: '64rem', width:'100rem' }}>
-          <div className="w-[70rem] h-[40rem] rounded-lg overflow-hidden relative left-[13rem] top-8">
+          style={{ backgroundImage: `url(${svdBackground})`, height: '64rem', }}>
+          <div className="w-[70rem] h-[40rem] rounded-lg overflow-hidden relative left-[5rem] top-3" style={{
+            marginTop:'70px'
+          }}>
             <iframe 
               width="100%" 
               height="100%" 
